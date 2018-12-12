@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-stylesheet type="text/xsl" href="xsl_testowy.xsl"?>
+<!-- <!DOCTYPE wnioskiKredytowe [
+<!ELEMENT wniosek (danePodstawowe,(adresZamieszkania|adresKorepondencyjny),danePozyczki,daty)>
+    <!ELEMENT danePodstawowe (imie,drugieImie,nazwisko,pesel,seriaINrDowodu)>
+        <!ELEMENT imie (#PCDATA)>
+        <!ELEMENT drugieImie (#PCDATA)>
+        <!ELEMENT nazwisko (#PCDATA)>
+        <!ELEMENT pesel (#PCDATA)>
+        <!ELEMENT seriaINrdowodu (#PCDATA)>
+    <!ELEMENT adresZamieszkania (ulica, numerDomu, numerMieszkania, kodPocztowy, miasto)>
+        <!ELEMENT ulica (#PCDATA)>
+        <!ELEMENT numerDomu (#PCDATA)>
+        <!ELEMENT numerMieszkania (#PCDATA)>
+        <!ELEMENT kodPocztowy (#CDATA)>
+        <!ELEMENT miasto (#CDATA)>
+    <!ELEMENT adresKorespondencyjny (ulica, numerDomu, numerMieszkania, kodPocztowy, miasto>
+        <!ELEMENT ulica (#CDATA)>
+        <!ELEMENT numerDomu (#CDATA)>
+        <!ELEMENT numerMieszkania (#CDATA)>
+        <!ELEMENT kodPocztowy (#CDATA)>
+        <!ELEMENT miasto (#CDATA)>
+    <!ELEMENT danePozyczki (kwotaWnioskowana, wysokoscOferty, dataPierwszejRaty)>
+        <!ELEMENT kwotaWnioskowana (#CDATA)>
+        <!ELEMENT wysokoscOferty (#CDATA)>
+        <!ELEMENT dataPierwszejRaty (#CDATA)>
+        <!ATTLIST decyzja udzielona (tak|nie) "tak">
+    <!ELEMENT daty (startZatrudnieniaDzien, startZatrudnieniaMiesiac, startZatrudnieniaRok, dataWnioskuDzien, dataWnioskuMiesiac,dataWnioskuRok)> 
+        <!ELEMENT startZatrudnieniaDzien (#CDATA)>
+        <!ELEMENT startZatrudnieniaMiesiac (#CDATA)>
+        <!ELEMENT startZatrudnieniaRok (#CDATA)>
+        <!ELEMENT dataWnioskuDzien (#CDATA)>
+        <!ELEMENT dataWnioskuMiesiac (#CDATA)>
+        <!ELEMENT dataWnioskuRok (#CDATA)>
+   ]>
+-->
+    <wnioskiKredytowe>
+            <wniosek>
+
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com/xml wniosek.xsd">
+                <danePodstawowe>
+                    <imie>Anna</imie>
+                    <drugieImie>Maria</drugieImie>
+                    <nazwisko>Kwiatkowska</nazwisko>
+                    <pesel>95121804321</pesel>
+                    <seriaINrDowodu>ABF526523</seriaINrDowodu>
+                </danePodstawowe>
+                <adresZamieszkania>
+                    <ulica>Sezamkowa</ulica>
+                    <numerDomu>4B</numerDomu>
+                    <numerMieszkania>3</numerMieszkania>
+                    <kodPocztowy>80-351</kodPocztowy>
+                    <miasto>Gdansk</miasto>
+                </adresZamieszkania>
+                <adresKorespondencyjny>
+                    <ulica>Zielona</ulica>
+                    <numerDomu>3A</numerDomu>
+                    <numerMieszkania>3</numerMieszkania>
+                    <kodPocztowy>80-245</kodPocztowy>
+                    <miasto>Gdynia</miasto>
+                </adresKorespondencyjny>
+                <danePozyczki>
+                    <kwotaWnioskowana>5000</kwotaWnioskowana>
+                    <wysokoscOferty>6000</wysokoscOferty>
+                    <dataPierwszejRaty>12.03.2019</dataPierwszejRaty>
+                    <decyzja udzielona="tak"/>
+                </danePozyczki>
+                <daty>
+                    <startZatrudnieniaDzien>16</startZatrudnieniaDzien>
+                    <startZatrudnieniaMiesiac>listopad</startZatrudnieniaMiesiac>
+                    <startZatrudnieniaRok>2018</startZatrudnieniaRok>
+                    <dataWnioskuDzien>25</dataWnioskuDzien>
+                    <dataWnioskuMiesiac>grudzień</dataWnioskuMiesiac>
+                    <dataWnioskuRok>2018</dataWnioskuRok>
+                </daty>
+            
+        </wniosek>
+    </wnioskiKredytowe>
